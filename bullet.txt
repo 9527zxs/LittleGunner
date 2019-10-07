@@ -1,0 +1,16 @@
+int	string	string	string	string	string	float	float	float	float	int	float	arr	string
+ID	名称（勿改，代码用）	描述	图标地址	子弹 地址	碰撞特效 地址	伤害	移动半径范围	伤害半径范围	飞行速度	穿人数	自动销毁时间	效果ID	备注
+ID	Name	Desc	IconPath	PrefabPath	ImpactPrefabPath	Hurt	MoveLength	HurtLength	Speed	PassNum	AutoDestroyTime	EffectIDs	Info
+101	步枪子弹	步枪的子弹		Prefabs/Prefab-子弹/步枪/步枪子弹	Prefabs/Prefab-子弹/步枪/步枪子弹-弹痕	10	15	0	30	1		[3]	
+102	狙击枪子弹	狙击的枪子弹		Prefabs/Prefab-子弹/狙击枪/狙击枪子弹	Prefabs/Prefab-子弹/狙击枪/狙击枪子弹-弹痕	100	20	0	50	3		[3]	
+103	散弹	散弹		Prefabs/Prefab-子弹/散弹/散弹	Prefabs/Prefab-子弹/散弹/散弹-弹痕	8	7	0	20	1			
+104	炸弹	炸弹		Prefabs/Prefab-炸弹/炸弹/炸弹	Prefabs/Prefab-炸弹/炸弹/炸弹-爆炸	20	3	2	2	1			炸弹有飞行半径和伤害半径
+105	追踪弹	追踪弹，千里追踪		Prefabs/Prefab-子弹/追踪弹/追踪弹	Prefabs/Prefab-子弹/追踪弹/追踪弹-弹痕	10	10	0	3	1			
+106	激光	激光，给你动个手术哇		Prefabs/Prefab-子弹/激光/激光	Prefabs/Prefab-子弹/激光/激光-弹痕	20	8	0	999	99	0.2		
+													
+													
+201	地雷	地雷，踩我就爆你	Texture/Place/UI地雷	Prefabs/Prefab-地雷/地雷	Prefabs/Prefab-炸弹/炸弹/炸弹-爆炸	50	0	5	0	1		[4]	
+202	黑洞	黑洞，来一个吃一个	Texture/Place/UI黑洞	Prefabs/Prefab-地雷/黑洞		10	0	0	0	0	10	[5]	
+203	502	502，被我沾住还想跑	Texture/Place/UI胶水	Prefabs/Prefab-地雷/502		10	0	0	0	0	10	[6]	
+													
+301	防御塔子弹	防御塔子弹	Texture/Place/UI胶水	Prefabs/Prefab-子弹/追踪弹/追踪弹	Prefabs/Prefab-子弹/追踪弹/追踪弹-弹痕	25	10	0	3	1	2.5		
